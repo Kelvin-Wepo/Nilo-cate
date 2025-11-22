@@ -9,6 +9,12 @@
 
 ---
 
+## 📊 Pitch Deck
+
+**[View Full Pitch Deck →](https://gamma.app/docs/NILOCATE-pfku5fac94mrk5i)**
+
+---
+
 ## 🚀 Platform Vision
 
 **Nilocate transforms tree conservation from passive observation to active, gamified, AI-driven community action.**
