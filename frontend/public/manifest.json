@@ -1,0 +1,52 @@
+{
+  "short_name": "Nilocate",
+  "name": "Nilocate - Endangered Tree Conservation Platform",
+  "description": "AI-powered platform for adopting, monitoring, and protecting endangered trees in Kenya",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#10b981",
+  "background_color": "#ffffff",
+  "orientation": "portrait-primary",
+  "categories": ["environment", "conservation", "education"],
+  "screenshots": [
+    {
+      "src": "screenshot1.png",
+      "type": "image/png",
+      "sizes": "540x720",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Report Incident",
+      "short_name": "Report",
+      "description": "Report a tree incident",
+      "url": "/report-incident",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "My Trees",
+      "short_name": "Trees",
+      "description": "View adopted trees",
+      "url": "/my-adoptions",
+      "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+    }
+  ]
+}
