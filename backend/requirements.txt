@@ -17,5 +17,4 @@ django-celery-beat==2.5.0
 # External API clients
 requests==2.31.0
 
-# SMS/USSD integration
-africastalking==1.2.6
+
