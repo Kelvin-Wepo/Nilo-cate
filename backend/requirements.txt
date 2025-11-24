@@ -23,5 +23,6 @@ gunicorn==21.2.0
 
 # Database URL parser for Django
 dj-database-url==2.1.0
+setuptools
 
 
