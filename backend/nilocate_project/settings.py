@@ -101,13 +101,14 @@ if os.getenv('DATABASE_URL'):
             default=os.getenv('DATABASE_URL'),
             conn_max_age=600,
             conn_health_checks=True,
+            engine='django.db.backends.postgresql',
         )
     }
 elif os.getenv('DB_PASSWORD'):
     # Development with PostgreSQL
     DATABASES = {
         'default': {
-            'ENGINE': 'django.db.backends.postgresql',
+            'ENGINE': 'django.db.backends.postgresql',  # Uses psycopg2
             'NAME': os.getenv('DB_NAME', 'nilocate_db'),
             'USER': os.getenv('DB_USER', 'postgres'),
             'PASSWORD': os.getenv('DB_PASSWORD', ''),
